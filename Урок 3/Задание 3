@@ -1,0 +1,7 @@
+print('Как тебя зовут?')
+first_name = input()
+print('Какая ваша фамилия?')
+surname_name = input()
+print('Какое ваша отчество?')
+patronymic = input()
+print(surname_name + '-' + first_name + '-' + patronymic)
