@@ -1,0 +1,5 @@
+r = int(input())
+k = int(input())
+n = int(input())
+translate = (r * 100 + k) * n
+print(f'За {n} мяча нужно заплатить {translate // 100} рублей и {translate % 100} копеек')
