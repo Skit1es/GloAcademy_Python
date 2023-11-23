@@ -1,0 +1,8 @@
+num = int(input('Введите трехзначное число: '))
+first = num // 100
+second = num // 10 % 10
+third = num % 10
+sum = first + second + third
+composition = first * second * third
+print(f'Сумма цифр числа {num} равна {sum}')
+print(f'Произведение цифр числа {num} равно {composition}')
