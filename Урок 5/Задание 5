@@ -1,0 +1,6 @@
+tasks = int(input('Сколько нужно решить задач: '))
+day_tasks = int(input('Сколько задач решаешь за один день: '))
+days = tasks // day_tasks
+if tasks % day_tasks != 0:
+    days += 1
+print(f'Вам понадобится {days} дней, чтобы выполнить все домашние задания')
