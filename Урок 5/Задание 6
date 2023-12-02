@@ -1,0 +1,14 @@
+number_of_poket = int(input('На какое число ставите? '))
+
+if number_of_poket == 0:
+    print('Зеленый')
+elif (1 <= number_of_poket <= 10 or 19 <= number_of_poket <= 28) and number_of_poket % 2 == 1:  # нечетные
+    print('Красное')
+elif (1 <= number_of_poket <= 10 or 19 <= number_of_poket <= 28) and number_of_poket % 2 == 0:  # четные
+    print('Черное')
+elif (11 <= number_of_poket <= 18 or 29 <= number_of_poket <= 36) and number_of_poket % 2 == 1:  # нечетные
+    print('Черное')
+elif (11 <= number_of_poket <= 18 or 29 <= number_of_poket <= 36) and number_of_poket % 2 == 0:  # четные
+    print('Красное')
+else:
+    print('Ошибка ввода')
