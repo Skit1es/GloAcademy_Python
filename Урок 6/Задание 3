@@ -1,0 +1,9 @@
+text_1 = input('Напишите что-нибудь: ')
+text_2 = input('Напишите что-нибудь: ')
+text_3 = input('Напишите что-нибудь: ')
+if len(text_3) < len(text_1) > len(text_2):
+    print(text_1)
+elif len(text_1) < len(text_2) > len(text_3):
+    print(text_2)
+elif len(text_1) < len(text_3) > len(text_2):
+    print(text_3)
