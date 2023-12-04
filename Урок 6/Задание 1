@@ -1,0 +1,2 @@
+string = input('Введите число: ')
+print(len(string))
