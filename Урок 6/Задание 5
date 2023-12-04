@@ -1,0 +1,5 @@
+text = input('Введите email: ')
+if '@' in text and '.' in text:
+    print('Корректный')
+else:
+    print('Некорректный')
