@@ -1,0 +1,14 @@
+n = int(input('Количество итераций: '))
+maximum = n
+minimum = maximum
+if n < 2:
+    print('Ошибка')
+else:
+    for i in range(n):
+        number = int(input('Введите число: '))
+        if number > maximum:
+            maximum = number
+        if number < minimum:
+            minimum = number
+    print(f'Минимум равен {minimum}')
+    print(f'Максимум равен {maximum}')
