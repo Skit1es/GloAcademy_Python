@@ -1,0 +1,8 @@
+# Цикл while
+num = int(input('Введите число: '))
+n = num
+count = 0
+while num % 2 == 0:
+    num = num / 2
+    count += 1
+print(f'Число {n} делится на 2 -{count}- раз(а) нацело.')
