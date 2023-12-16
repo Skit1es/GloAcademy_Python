@@ -1,0 +1,9 @@
+# Цикл while
+num = int(input('Введите число: '))
+n = num
+count = 0
+while num:
+    if num % 10 == 5:
+        count += 1
+    num //= 10
+print(f'Число {n} содержит цифру 5 {count} раз.')
